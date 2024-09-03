@@ -1,0 +1,182 @@
+.homePage {
+  font-family: "Josefin Sans", sans-serif;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.homePage-hero {
+  flex: 1;
+  
+}
+.home-app-intro h2{
+  font-size: 45px !important;
+  text-align: center;
+  font-weight: 700;
+  animation: appear 1s 1;
+}
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #ddd;
+}
+
+.home-logo h2 {
+  margin: 0;
+  font-size: 1.5rem !important;
+}
+
+.header-before-login button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.header-after-login {
+  display: flex;
+  align-items: center;
+}
+
+.header-after-login .dropdown-toggle {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.home-container {
+  padding: 20px;
+  margin-top: 10%;
+}
+
+.home-app-intro {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.home-app-intro h2 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.home-app-intro p {
+  font-size: 1rem;
+}
+
+.home-app-intro button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 20px;
+}
+
+.home-meet-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.create-meet, .join-meet {
+  margin-bottom: 20px;
+}
+
+.create-meet input, .join-meet input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.create-meet button, .join-meet button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.create-meet button:hover, .join-meet button:hover {
+  background-color: #0056b3;
+}
+
+.join-meet p {
+  margin: 10px 0;
+}
+
+.modal-content {
+  border-radius: 8px;
+}
+
+.modal-header {
+  border-bottom: 1px solid #ddd;
+}
+
+.modal-body {
+  padding: 20px;
+}
+
+.modal-footer {
+  border-top: 1px solid #ddd;
+}
+
+.modal-footer .btn-secondary {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.modal-footer .btn-primary {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.footer {
+  background-color: #c1c1c1;
+  padding: 30px;
+  border-top: 1px solid #ddd;
+}
+
+.footer-content {
+  background-color: #e9ecef;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+
+.footer-links {
+  display: flex;
+  gap: 15px;
+  
+}
+.footer-links a{
+  color:black !important;
+  text-decoration: none;
+  
+}
+
+.footer-socials {
+  display: flex;
+  gap: 15px;
+}
+
+.footer-socials a {
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 10px;
+  background-color: #e9ecef;
+}

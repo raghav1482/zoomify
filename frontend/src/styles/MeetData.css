@@ -1,0 +1,115 @@
+.myMeets-body-nav {
+    background-color: rgba(0, 128, 255, 0.85);
+    backdrop-filter: blur(10px);
+    height: 8vh;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2vh 2%;
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+}
+
+.myMeets-body-nav ul {
+    gap: 40px;
+    list-style: none;
+    display: flex;
+}
+.myMeets-body-nav ul li {
+    font-size: 1.2rem;
+    color: #ffffff;
+    font-weight: 600;
+    padding-bottom: 5px;
+    transition: color 0.3s;
+}
+.myMeets-body-nav ul li:hover {
+    color: #e0f7fa;
+}
+
+.myMeets-body-content {
+    padding: 3% 4%;
+    background-color: #f9f9f9;
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    overflow-y: auto;
+}
+
+.upcoming-meet-content, .past-meet-content {
+    gap: 25px;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.upcoming-meet-card, .past-meet-card {
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 128, 255, 0.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    border-radius: 1rem;
+    transition: transform 0.2s;
+}
+
+.upcoming-meet-card:hover, .past-meet-card:hover {
+    transform: translateY(-5px);
+}
+
+.meet-card-details p {
+    font-size: 1rem;
+    color: #006bb3;
+    font-weight: 500;
+}
+
+.meet-card-controls button {
+    padding: 8px 16px;
+    font-size: 0.85rem;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    margin: 10px;
+    border: none;
+    color: white;
+}
+
+.meet-card-controls button:hover {
+    transform: translateY(-2px);
+}
+
+.meet-card-controls .joinBtn {
+    background-color: #00796b;
+}
+
+.meet-card-controls .editBtn {
+    background-color: #0288d1;
+}
+
+.meet-card-controls .deleteBtn {
+    background-color: #d32f2f;
+}
+
+@media only screen and (max-width: 768px) {
+    .myMeets-body-nav {
+        flex-direction: column;
+        height: auto;
+        align-items: flex-start;
+    }
+    
+    .myMeets-body-nav ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .upcoming-meet-card, .past-meet-card {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .myMeets-body-content {
+        padding: 5% 2%;
+    }
+
+    .meet-card-controls button {
+        padding: 6px 12px;
+        font-size: 0.75rem;
+    }
+}

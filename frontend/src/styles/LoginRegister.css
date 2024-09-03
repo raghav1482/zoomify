@@ -1,0 +1,119 @@
+/* Login, Register page */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+.formContainer{
+    /* background-color: rgb(159, 212, 228); */
+    background: rgb(0, 106, 255);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* this centers vertically */
+    justify-content: center; /* this centers horizontally */
+    font-family: "Josefin Sans", sans-serif !important  ;
+}
+
+.smart-header{
+    width: 100%;
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2%;
+    position: absolute;
+    top: 1vh;
+}
+
+.smart-header .smart-logo h2{
+    
+    font-size: 2.2rem;
+
+    font-weight: bold;
+    cursor: pointer;
+}
+.smart-header .smart-logo h2 #smart-logo-h2{
+    text-decoration: none;
+    color: rgb(0, 127, 191);
+}
+
+.smart-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.smart-logo h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+#smart-logo-h2 {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#smart-logo-h2:hover {
+    color: #2980b9;
+}
+
+.formWrapper {
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    width: 300px;
+    padding: 20px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.form-control {
+    border: 2px solid #ecf0f1;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 10px;
+    transition: border 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+.btn-primary {
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+}
+
+p {
+    margin-top: 15px;
+    color: #7f8c8d;
+}
+
+p a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    color: #2980b9;
+}
+
